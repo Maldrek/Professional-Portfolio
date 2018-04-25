@@ -10,7 +10,9 @@
 </head>
 
 <body>
+
     <div class="website">
+
         <div class="row">
             <div id="sideNav" class="col s12 m2 l2 xl2">
                 <a href="#top">
@@ -57,26 +59,110 @@
                     </a>
                 </div>
             </div>
-            <div id="parallax" class="parallax-container col s12 m10 l10 xl10 push-m3 push-l2 push-xl2">
-                <div class="parallax">
-                    <img src="assets/images/abstract.jpg">
-                    <div id="heading" class="row">
-                        <h1 id="intro" class="valign-wrapper" style="color: white;">
-                            Hello World!
-                            <span class="helloWorld"></span>
-                        </h1>
-                    </div>
-                    <div id="about" class="row">
-                        <h2>This is the about me section!</h2>
-                    </div>
+        </div>
+
+        <div class="row">
+            <div id="landing" class="col s12 m10 l10 xl10 push-m2 push-l2 push-xl2">
+                <h1 id="intro" style="color: white;">Hello World</h1>
+                <h2 id="subtitle" style="color: white;">My name is Scott Salem, and I am not a witch.</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="about" class="col s12 m10 l10 xl10 push-m2 push-l2 push-xl2">
+                <h1 style="margin-left: 30vw;">About Me</h1>
+                <img id="bioHeadshot" src="assets/images/headshot2.jpg">
+                <h6 id="bio">
+                    I am an ambitious Full-Stack Developer looking to help create innovative and boundary-breaking ways to develop the web. My
+                    theatrical upbringing along with my technical skills help me to take on any client and bring a unique
+                    perspective and mindset to my projects. I am currently looking to join a team of like-minded entrepreneurs
+                    and firms who seek to provide something new and creative to the people they work with.
+                </h6>
+                <br>
+                <h6>
+                    Born and raised in Kansas, I have had the opportunity to travel all over the world and meet people from all aspects of life.
+                    I have attended international leadership conferences that have helped me to hone my organizational and
+                    time-management skills, and have won top speaking awards and have had the opportunity to coach high-schoolers
+                    from all across the nation. This has helped shape my creative outlook and has allowed me to learn how
+                    to interact with many different kinds of people. If you are familiar with the DISC personality system,
+                    that is something that I work hard to abide by when it comes to communicating with clients as well as
+                    my peeers.
+                </h6>
+                <br>
+                <h6>
+                    When I am not at my computer, you can probably find me in rehearsals for a show or binge-watching Black Mirror on Netflix.
+                    I bowl a mean 100 on a good day, and my knowledge of anime is expansive. Other hobbies include reading
+                    (current book is "Think and Grow Rich" by Napoleon Hill), writing, singing showtunes, and watching "Last
+                    Week Tonight" with John Oliver on YouTube (because who can afford HBO anymore?).
+                </h6>
+            </div>
+        </div>
+        <div class="row">
+            <div id="portfolio" class="col s12 m10 l10 xl10 push-m2 push-l2 push-xl2">
+                <h1 style="margin-left: 32vw;">Portfolio</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div id="resume" class="col s12 m10 l10 xl10 push-m2 push-l2 push-xl2">
+                <h1 style="margin-left: 33vw;">Resume</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div id="contact" class="col s12 m10 l10 xl10 push-m2 push-l2 push-xl2">
+                <h1 style="margin-left: 33vw;">Contact</h1>
+                <div class="row col s12 m6 l6 xl6 left">
+                    <h6 class="valign">
+                        Do you like what you see? Want to ask about my code? Need somebody to give a large sum of money to? 
+                        Please send me a message! I always try to respond within 24 hours! I am available for: 
+                    </h6>
+                    <br>
+                    <ul>
+                        <li><h6>Freelance Projects</h6></li>
+                        <li><h6>Mentoring/Tutoring</h6></li>
+                        <li><h6>Front End Development</h6></li>
+                        <li><h6>Informational Interviews</h6></li>
+                        <li><h6>Employment by an Agency (Please Hire Me)</h6></li>
+                    </ul>
+                </div>
+                <div class="row col s12 m6 l6 xl6">
+                    <form class="col s12">
+                        <h4>Say Hello!</h4>
+                        <div class="row">
+                            <div class="input-field col m6 s12">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" class="validate name" required>
+                                <label for="icon_prefix">Name</label>
+                            </div>
+                            <div class="input-field col m6 s12">
+                                <i class="material-icons prefix">email</i>
+                                <input id="icon_telephone" type="text" class="validate email" required>
+                                <label for="icon_telephone">Email</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <textarea id="icon_prefix2" class="materialize-textarea message"></textarea>
+                                <label for="icon_prefix2">Message</label>
+                            </div>
+                            <button data-target='modal1' class="btn waves-effect waves-light modal-trigger" type="submit" name="action" id="submit-button">Send Message!
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="row">
+            <footer class="col s12 m10 l10 xl10 push-m2 push-l2 push-xl2">
+                <h6 class="text-white center-align" style="margin-top:3vh;">&copy; Copyright
+                    <script type="text/javascript">
+                        document.write(new Date().getFullYear());
+                    </script> Scott Salem
+                </h6>
+            </footer>
+        </div>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"></script>  
-    <script type="text/javascript" src="assets/index.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"></script>
+        <script type="text/javascript" src="assets/index.js"></script>
 </body>
 
 </html>
