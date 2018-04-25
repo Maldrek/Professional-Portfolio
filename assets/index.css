@@ -55,6 +55,7 @@ body {
 
 #nav-headshot:hover {
     box-shadow: 1px 1px 10px rgb(203, 204, 243), 0 0 15px blue, 0 0 10px rgb(181, 181, 240);
+    cursor: pointer;
 }
 
 .nav1, .nav2, .nav3, .nav4 {
@@ -69,6 +70,7 @@ body {
 
 .nav1:hover, .nav2:hover, .nav3:hover, .nav4:hover {
     text-shadow: 1px 1px 2px rgb(203, 204, 243), 0 0 5px blue, 0 0 5px rgb(181, 181, 240);
+    cursor: pointer;
 }
 
 #sidebar-icon {
