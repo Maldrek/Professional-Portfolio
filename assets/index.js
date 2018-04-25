@@ -1,6 +1,10 @@
 $(document).ready(function(){
 
-// let introArray = ["مرحبا بالعالم", "Hola Mundo", "Bonjour le monde", "Ciao mondo", "你好，世界", "Hallo Welt", "こんにちは世界","Hello world"];
+let typed = require("typed.js");
+
+let introArray = ["Hello world","مرحبا بالعالم", "Hola Mundo", "Bonjour le monde", "Ciao mondo", "你好，世界", "Hallo Welt", "こんにちは世界"];
+
+
 
 $(".nav1").on("click", function() {
     document.querySelector("#about").scrollIntoView({
