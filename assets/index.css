@@ -48,6 +48,7 @@ body {
     border-radius: 50%;
     border: double 5px white;
     height: 25vh;
+    width: 12vw;
     margin-top: 10vh;
     margin-left: 1.5vw;
 }
@@ -159,6 +160,7 @@ a {
     box-shadow: 2px 2px 15px black;
     border: solid 5px black;
     height: 50vh;
+    width: 20vw;
     margin-left: 3vw;
     margin-right: 3vw;
     margin-bottom: 10vh;
