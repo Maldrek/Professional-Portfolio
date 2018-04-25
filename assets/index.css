@@ -147,12 +147,6 @@ a {
 #about {
     height: 75vh;
     background-color: rgba(255, 255, 255, 0.9);
-    /* background-image: url("../assets/images/fresh_snow.png"); */
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: repeat; */
 }
 
 #bioHeadshot {
@@ -169,36 +163,26 @@ a {
     height: 75vh;
     margin-top: 5vh;
     background-color: rgba(255, 255, 255, 0.9);
-    /* background-image: url("../assets/images/fresh_snow.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: repeat; */
 }
 
 #resume {
     height: 75vh;
     margin-top: 5vh;
     background-color: rgba(255, 255, 255, 0.9);
-    /* background-image: url("../assets/images/fresh_snow.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: repeat; */
 }
 
 #contact {
     height: 75vh;
     margin-top: 5vh;
     background-color: rgba(255, 255, 255, 0.9);
-    /* background-image: url("../assets/images/fresh_snow.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: repeat; */
+}
+
+#submit-button {
+    background: linear-gradient(38deg, #2c2c73, #136adc, #4557d2, #8692e3);
+}
+
+#submit-button:hover {
+    box-shadow: 1px 1px 2px rgb(203, 204, 243), 0 0 15px blue, 0 0 10px rgb(181, 181, 240);
 }
 
 footer {
