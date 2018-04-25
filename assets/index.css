@@ -52,6 +52,10 @@ body {
     margin-left: 1.5vw;
 }
 
+#nav-headshot:hover {
+    box-shadow: 1px 1px 10px rgb(203, 204, 243), 0 0 15px blue, 0 0 10px rgb(181, 181, 240);
+}
+
 .nav1, .nav2, .nav3, .nav4 {
     margin-left: 3vw;
     color: white;
