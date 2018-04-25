@@ -1,0 +1,121 @@
+body {
+    background-image: url("../assets/images/abstract.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+}
+
+#sideNav {
+    background: linear-gradient(38deg, #2c2c73, #136adc, #4557d2, #8692e3);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 29s ease infinite;
+    -moz-animation: AnimationName 29s ease infinite;
+    animation: AnimationName 29s ease infinite;
+    height: 100vh;
+    position: fixed;
+
+    border-right: ridge 3px white;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+
+#nav-headshot {
+    border-radius: 50%;
+    border: double 5px white;
+    height: 25vh;
+    margin-top: 10vh;
+    margin-left: 1.5vw;
+}
+
+.nav1, .nav2, .nav3, .nav4 {
+    margin-left: 3vw;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    width: 9vw;
+    height: 5vh;
+    margin-bottom: 3vh;
+    font-size: 3vh;
+}
+
+#sidebar-icon {
+    margin-top: 1vh;
+}
+
+hr {
+    margin-left: 2vw;
+    width: 10vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+#instagram, #github, #linkedin {
+    height: 5vh;
+    margin-top: 10vh;
+}
+
+#instagram{
+    margin-left: 2vw;
+    position: fixed;
+}
+
+#instagram:hover {
+    height: 7vh;
+    position: fixed;
+}
+
+#github {
+    margin-left: 7vw;
+    position: fixed;
+}
+
+#github:hover {
+    height: 7vh;
+    margin-left: 6.6vw;
+    position: fixed;
+}
+
+#linkedin {
+    margin-left: 12vw;
+    position:fixed;
+}
+
+#linkedin:hover {
+    height: 7vh;
+    margin-left: 11vw;
+    position: fixed;
+}
+
+#heading {
+    height: 100vh;
+}
+
+#intro {
+    margin-top: 43vh;
+    margin-left: 30vw;
+    text-shadow: black 2px 2px 7px;
+}
+
+#about {
+    background-color: white;
+    height: 100vh;
+}
