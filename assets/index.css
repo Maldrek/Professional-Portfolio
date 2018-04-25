@@ -4,7 +4,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     width:100%;
 }
 
@@ -68,9 +68,16 @@ a {
     text-decoration: none;
 }
 
+#socMedia{
+    background: rgba(222, 227, 233, 0.7);
+    height: 30vh;
+    margin-top: 10vh;
+    border-top: solid 2px white;
+}
+
 #instagram, #github, #linkedin {
     height: 5vh;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 #instagram{
