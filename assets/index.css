@@ -11,6 +11,14 @@ body {
     flex-direction: column;
 }
 
+#typing {
+    font-size: 8vw!important;
+}
+
+#subtitle {
+    font-size: 3vw!important;
+}
+
 .website {
     flex: 1 0 auto;
 }
@@ -136,7 +144,7 @@ a {
 }
 
 #intro {
-    margin-top: 38vh;
+    margin-top: 42vh;
     text-shadow: black 2px 2px 7px;
 }
 

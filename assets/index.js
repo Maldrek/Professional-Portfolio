@@ -1,15 +1,18 @@
 // strings: ["Hello world", "مرحبا بالعالم", "Hola Mundo", "Bonjour le monde", "Ciao mondo", "你好，世界", "Hallo Welt", "こんにちは世界"],
-let TypeIt = require("typeit");
 
 function TypeIntro() {
 
     new TypeIt('#typing', {
-        speed: 750,
+        speed: 150,
+        startDelay: 250,
+        loopDelay: 750,
         lifeLike: true,
         autoStart: true,
         cursor: true,
+        cursorSpeed: 750,
+        nextStringDelay: 1500,
         loop: true,
-        strings: ["Hello world", "مرحبا بالعالم", "Hola Mundo", "Bonjour le monde", "Ciao mondo", "你好，世界", "Hallo Welt", "こんにちは世界"],
+        strings: ["Hello World", "مرحبا بالعالم", "Hola Mundo", "Bonjour le Monde", "Ciao Mondo", "你好 世界", "Hallo Welt", "こんにちは世界"],
         breakLines: false
     });
 }
