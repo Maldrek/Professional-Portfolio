@@ -9,6 +9,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: Vidaloka;
 }
 
 #typing {
@@ -209,6 +210,7 @@ a {
 footer {
     height: 8vh;
     background-color: rgba(255, 255, 255, 0.9);
+    color: rgb(148, 148, 175);
     margin-top: 5vh;
     margin-bottom: -4vh;
     position:fixed;
