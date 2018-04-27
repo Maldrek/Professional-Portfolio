@@ -35,9 +35,6 @@ body {
     height: 100vh;
     position: fixed;
 
-    margin:0;
-    padding: 0;
-
     border-right: ridge 3px white;
 }
 
