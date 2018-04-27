@@ -170,7 +170,7 @@ a {
     bottom: 0;
     left: 0;
     margin: auto;
-    margin-top: 86vh;
+    margin-top: 88vh;
     cursor: pointer;
     width :34px;
     height: 55px;
@@ -206,7 +206,7 @@ a {
 .magic {
     position: absolute;
     margin: auto;
-    margin-top: 34vh;
+    margin-top: 36vh;
     margin-left: 37vw;
     color:  rgb(16, 19, 68);
     cursor: none;
