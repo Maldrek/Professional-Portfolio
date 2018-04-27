@@ -209,6 +209,7 @@ a {
     margin-top: 27vh;
     margin-left: 37vw;
     color:  rgb(16, 19, 68);
+    cursor: none;
 }
 
 #about {

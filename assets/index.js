@@ -22,7 +22,8 @@ $(document).ready(function() {
 });
 
 $("#subtitle").hide().delay(3000).fadeIn(5000);
-
+$("#scroll-downs").hide().delay(5000).fadeIn(5000);
+$(".magic").hide().delay(7000).fadeIn(5000);
 
 $(".nav1").on("click", function () {
     document.querySelector("#about").scrollIntoView({
