@@ -1,14 +1,14 @@
 function TypeIntro() {
 
     new TypeIt('#typing', {
-        speed: 150,
+        speed: 100,
         startDelay: 250,
-        loopDelay: 750,
+        loopDelay: 500,
         lifeLike: true,
         autoStart: true,
         cursor: true,
         cursorSpeed: 750,
-        nextStringDelay: 1500,
+        nextStringDelay: 2000,
         loop: true,
         strings: ["Hello World", "مرحبا بالعالم", "Hola Mundo", "Bonjour le Monde", "Ciao Mondo", "你好 世界", "Hallo Welt", "こんにちは世界"],
         breakLines: false
