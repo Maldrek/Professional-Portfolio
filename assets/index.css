@@ -221,6 +221,7 @@ a {
 
 #bio {
     margin-top: 15vh;
+    color: rgb(16, 19, 68);
 }
 
 #bioHeadshot {
@@ -265,6 +266,7 @@ a {
     background-color: rgba(255, 255, 255, 0.9);
     display: block;
     overflow: auto;
+    color: rgb(16, 19, 68);
 }
 
 #submit-button {
