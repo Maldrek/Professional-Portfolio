@@ -16,6 +16,7 @@ body {
 }
 
 #subtitle {
+    position: static;
     font-size: 3vw!important;
 }
 
@@ -145,6 +146,7 @@ a {
 
 #intro {
     margin-top: 42vh;
+    position: relative;
     text-shadow: black 2px 2px 7px;
 }
 
@@ -169,6 +171,7 @@ a {
     border: solid 5px black;
     height: 50vh;
     width: 20vw;
+    margin-top: 6vh;
     margin-left: 3vw;
     margin-right: 3vw;
     margin-bottom: 10vh;

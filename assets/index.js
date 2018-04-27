@@ -1,5 +1,3 @@
-// strings: ["Hello world", "مرحبا بالعالم", "Hola Mundo", "Bonjour le monde", "Ciao mondo", "你好，世界", "Hallo Welt", "こんにちは世界"],
-
 function TypeIntro() {
 
     new TypeIt('#typing', {
@@ -17,9 +15,14 @@ function TypeIntro() {
     });
 }
 
+
+
 $(document).ready(function() {
     TypeIntro();
 });
+
+$("#subtitle").hide().delay(3000).fadeIn(5000);
+
 
 $(".nav1").on("click", function () {
     document.querySelector("#about").scrollIntoView({
