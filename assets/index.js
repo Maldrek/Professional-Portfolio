@@ -53,3 +53,9 @@ $("#nav-headshot").on("click", function () {
         behavior: "smooth"
     });
 });
+
+$("#scroll-downs").on("click", function () {
+    document.querySelector("#about").scrollIntoView({
+        behavior: "smooth"
+    });
+});

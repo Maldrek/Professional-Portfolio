@@ -99,7 +99,7 @@ a {
 
 #socMedia{
     background: rgba(222, 227, 233, 0.7);
-    height: 30vh;
+    height: 15.5vh;
     margin-top: 10vh;
     border-top: solid 2px white;
 }
@@ -158,24 +158,70 @@ a {
 
 #landing{ 
     height: 100vh;
+    margin: 0px;
+    padding: 0px;
 }
+
+/* scroller code taken from https://codepen.io/2xsamurai/pen/WwmjKQ */
+#scroll-downs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 88vh;
+    cursor: pointer;
+    width :34px;
+    height: 55px;
+  }
+
+  .mouseRoll {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid rgb(16, 19, 68);
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: rgb(16, 19, 68);
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
 
 #about {
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.9);
     display: block;
+    overflow: auto;
+}
+
+#bio {
+    margin-top: 15vh;
 }
 
 #bioHeadshot {
     float: right;
     box-shadow: 2px 2px 15px black;
     border: solid 5px black;
-    height: 50vh;
-    width: 20vw;
-    margin-top: 6vh;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-right: 1vw;
+    margin-top: 25vh;
     margin-bottom: 10vh;
+    padding: 0px;
 }
 
 #portfolio {
@@ -192,11 +238,25 @@ a {
     display: block;
 }
 
+.resumeDiv {
+    height: 100vh;
+    width: 40vw;
+    background-color: white;
+}
+
+#resumeImage {
+    height: 100vh;
+    width: 40vw;
+    margin-top: 5vh;
+    padding: 0!important;
+}
+
 #contact {
-    height: 75vh;
+    height: 100vh;
     margin-top: 5vh;
     background-color: rgba(255, 255, 255, 0.9);
     display: block;
+    overflow: auto;
 }
 
 #submit-button {
@@ -208,10 +268,10 @@ a {
 }
 
 footer {
-    height: 8vh;
+    height: 7vh;
     background-color: rgba(255, 255, 255, 0.9);
     color: rgb(148, 148, 175);
     margin-top: 5vh;
-    margin-bottom: -4vh;
+    margin-bottom: -15vh;
     position:fixed;
 }
