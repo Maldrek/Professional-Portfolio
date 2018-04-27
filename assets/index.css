@@ -226,7 +226,7 @@ a {
 
 #bioHeadshot {
     float: right;
-    box-shadow: 2px 2px 15px black;
+    box-shadow: 2px 2px 15px rgb(16, 19, 68);
     border: solid 5px black;
     margin-right: 1vw;
     margin-top: 25vh;
