@@ -3,7 +3,7 @@ function TypeIntro() {
     new TypeIt('#typing', {
         speed: 100,
         startDelay: 250,
-        loopDelay: 500,
+        loopDelay: 2000,
         lifeLike: true,
         autoStart: true,
         cursor: true,
