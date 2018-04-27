@@ -10,7 +10,7 @@ function TypeIntro() {
         cursorSpeed: 750,
         nextStringDelay: 2000,
         loop: true,
-        strings: ["Hello World", "مرحبا بالعالم", "Hola Mundo", "Bonjour le Monde", "Ciao Mondo", "你好 世界", "Hallo Welt", "こんにちは世界"],
+        strings: ["Hello World", "مرحبا بالعالم", "Hola Mundo", "Bonjour le Monde", "こんにちは世界", "Ciao Mondo", "你好 世界", "Hallo Welt"],
         breakLines: false
     });
 }
