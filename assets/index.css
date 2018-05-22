@@ -92,8 +92,7 @@ body {
 }
 
 #landing{ 
-    height: 93vh;
-    margin-top: 5rem;
+    height: 100vh;
     padding: 0px;
 }
 
@@ -174,6 +173,31 @@ body {
     margin-top: rem;
     background-color: rgba(255, 255, 255, 0.9);
     display: block;
+}
+
+.carousel-item {
+    margin: 0;
+    padding: 0;
+}
+
+.portHead {
+    margin-top: 100px;
+}
+
+.portCarousel {
+    margin-top: 50px;
+}
+
+.car {
+    height: 100%;
+    background-color: white;
+    overflow: auto;
+    position: fixed;
+}
+
+.portImage {
+    height: 100%;
+    width: 40%;
 }
 
 #resume {
