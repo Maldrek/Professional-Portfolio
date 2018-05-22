@@ -13,73 +13,99 @@
 <body>
 
     <div class="website">
-
-        <div class="row" style="margin: 0">
-            <div id="sideNav" class="col s12 m2 l2 xl2">
-                <a>
-                    <img id="nav-headshot" src="assets/images/headshot.jpg">
-                </a>
-                <div class="navigation">
-                    <a>
-                        <h5 class="nav1">
-                            <i id="sidebar-icon" class="small material-icons">account_box</i>
-                            About
-                        </h5>
+        <div class="row navbar-fixed">
+            <nav id="navigation">
+                <div class="nav-wrapper">
+                    <a class="brand-logo brandlogo center">Scott Salem</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
                     </a>
-                    <hr>
-                    <a>
-                        <h5 class="nav2">
-                            <i id="sidebar-icon" class="small material-icons">collections</i>
-                            Portfolio
-                        </h5>
-                    </a>
-                    <hr>
-                    <a>
-                        <h5 class="nav3">
-                            <i id="sidebar-icon" class="small material-icons">toc</i>
-                            Resume
-                        </h5>
-                    </a>
-                    <hr>
-                    <a>
-                        <h5 class="nav4">
-                            <i id="sidebar-icon" class="small material-icons">mail</i>
-                            Contact
-                        </h5>
-                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a class="nav1">About</a>
+                        </li>
+                        <li>
+                            <a class="nav2">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="nav3">Resume</a>
+                        </li>
+                        <li>
+                            <a class="nav4">Contact</a>
+                        </li>
+                    </ul>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down valign-wrapper center socMedia">
+                        <li>
+                            <a class="socLink" target="_blank" href="https://www.linkedin.com/in/scott-salem-64982987/">
+                                <img class="linkedIn" src="assets/images/linkedin.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="socLink" target="_blank" href="https://github.com/Maldrek">
+                                <img class="github" src="assets/images/github.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="socLink" target="_blank" href="https://www.instagram.com/scottmsalem/">
+                                <img class="instagram" src="assets/images/instagram.png">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div id="socMedia" class="row">
-                    <a target="_blank" href="https://www.instagram.com/scottmsalem/">
-                        <img id="instagram" src="assets/images/instagram.png">
-                    </a>
-                    <a target="_blank" href="https://github.com/Maldrek">
-                        <img id="github" src="assets/images/github.png">
-                    </a>
-                    <a target="_blank" href="https://www.linkedin.com/in/scott-salem-64982987/">
-                        <img id="linkedin" src="assets/images/linkedin.png">
-                    </a>
-                </div>
-            </div>
+            </nav>
+            <ul id="slide-out" class="sidenav">
+                <li>
+                    <div class="user-view">
+                        <div class="background">
+                            <img src="assets/images/headshot.jpg">
+                        </div>
+                        <a href="#name">
+                            <span class="white-text name">John Doe</span>
+                        </a>
+                        <a href="#email">
+                            <span class="white-text email">jdandturk@gmail.com</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#!">About</a>
+                </li>
+                <li>
+                    <a href="#!">Portfolio</a>
+                </li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li>
+                    <a class="subheader">Subheader</a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="#!">Third Link With Waves</a>
+                </li>
+            </ul>
+            <a href="#" data-target="slide-out" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
         </div>
 
         <div class="row">
-            <div id="landing" class="col s12 m10 l10 xl10 push-m2 push-l2 push-xl2">
+            <div id="landing" class="col s12 m12 l12 xl12 flow-text">
                 <h1 id="intro" class="center-align" style="color: white;">
                     <span id="typing"></span>
                     <span id="typeCursor"></span>
                 </h1>
-                <h2 id="subtitle" class="center-align" style="color: white;">My name is Scott Salem, and I am not a witch.</h2>
+                <h2 id="subtitle" class="center-align" style="color: white;">My name is Scott Salem, and I am "not" a witch.</h2>
                 <!-- scroller code taken from https://codepen.io/2xsamurai/pen/WwmjKQ -->
                 <div id="scroll-downs">
                     <div class="mouseRoll">
                         <div class="scroller"></div>
                     </div>
                 </div>
-                <p class="magic">See the magic below</p>
+                <p class="magic center-align">(See the magic below)</p>
             </div>
         </div>
         <div class="row">
-            <div id="about" class="col s12 m10 l10 xl10 push-m2 push-l2 push-xl2 flow-text">
+            <div id="about" class="col s12 m12 l12 xl12">
                 <img id="bioHeadshot" class="col s12 m12 l3 xl3" src="assets/images/headshot2.jpg">
                 <h6 id="bio" class="valign-wrapper col s12 m12 l8 xl8">
                     I am an ambitious Full-Stack Developer looking to help create innovative and boundary-breaking ways to develop the web. My
@@ -100,10 +126,10 @@
                     <br> In my web development journey, I have built dynamic start-to-finish web applications using HTML5, CSS3,
                     JavaScript, jQuery, AJAX, responsive design, JSON, RESTful APIs, Bootstrap, Handlebars.js, Firebase,
                     cookies, local storage, Node.js, Express.js, React.js, MongoDB, MySQL, Materialize, Heroku, and Git.
-                    While I currently am just beginning my career as a developer, I know that I have the drive and ability to learn that
-                    will help me cultivate and use my knowledge in new and creative ways. The one thing I love most about
-                    having a career in this field is that I will never stop learning and growing in my craft. That continued
-                    newness motivates me and makes me excited for my future.
+                    While I currently am just beginning my career as a developer, I know that I have the drive and ability
+                    to learn that will help me cultivate and use my knowledge in new and creative ways. The one thing I love
+                    most about having a career in this field is that I will never stop learning and growing in my craft.
+                    That continued newness motivates me and makes me excited for my future.
                     <br>
                     <br>
                     <br> When I am not at my computer, you can probably find me in rehearsals for a show or binge-watching Black
@@ -114,12 +140,12 @@
             </div>
         </div>
         <div class="row">
-            <div id="portfolio" class="col s12 m10 l10 xl10 push-m2 push-l2 push-xl2">
-                <h1 class="center-align">Portfolio</h1>
+            <div id="portfolio" class="col s12 m12 l12 xl12 flow-text">
+
             </div>
         </div>
         <div class="row">
-            <div id="resume" class="col s12 m10 l10 xl10 push-m2 push-l2 push-xl2 flow-text">
+            <div id="resume" class="col s12 m12 l12 xl12 flow-text">
                 <div class="resumeDiv col s12 m10 l6 xl6 push-m1 push-l3 push-xl3">
                     <div class="resumeHeader">
                         <img id="resumeImage" src="assets/images/resumeGuideline.PNG">
@@ -128,8 +154,8 @@
             </div>
         </div>
         <div class="row">
-            <div id="contact" class="col s12 m10 l10 xl10 push-m2 push-l2 push-xl2 flow-text">
-                <h1 class="center-align">Contact Me!</h1>
+            <div id="contact" class="col s12 m12 l12 xl12 flow-text">
+                <h1 id="contactHeader" class="center-align">Contact Me!</h1>
                 <div class="row col s12 m12 l6 xl6 left">
                     <h6 class="valign-wrapper center-align" style="margin-top: 15vh;">
                         Do you like what you see? Want to ask about my code? Win the lottery and want to share the wealth? Please send me a message!
@@ -170,17 +196,17 @@
                             </div>
                             <div class="input-field col s6">
                                 <i class="material-icons prefix">phone</i>
-                                <input id="icon_telephone" type="tel" class="validate">
+                                <input id="icon_telephone" type="tel">
                                 <label for="icon_telephone">Telephone</label>
                             </div>
                             <div class="input-field col m12 s12">
                                 <i class="material-icons prefix">help</i>
-                                <input id="icon_subject" type="text" class="validate name" data-length="50">
+                                <input id="icon_subject" type="text" class="name" data-length="50">
                                 <label for="icon_subject">Subject</label>
                             </div>
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">chat</i>
-                                <textarea id="icon_message" class="materialize-textarea message" data-length="500"></textarea>
+                                <textarea id="icon_message" class="materialize-textarea validate message" data-length="500"></textarea>
                                 <label for="icon_message">Message</label>
                             </div>
                             <button data-target='modal1' class="btn waves-effect waves-light modal-trigger" style="margin-left: 14vw;" type="submit"
@@ -193,7 +219,7 @@
             </div>
         </div>
         <div class="row">
-            <footer class="col s12 m10 l10 xl10 push-m2 push-l2 push-xl2">
+            <footer class="col s12 m12 l12 xl12">
                 <p class="center-align" style="margin-top:3vh;">
                     <u>SCOTT SALEM</u> &copy;
                     <script type="text/javascript">
@@ -205,7 +231,7 @@
 
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@5.9.0/dist/typeit.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"></script>
+        <script type="text/javascript" src=" https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
         <script type="text/javascript" src="assets/index.js"></script>
 </body>
 

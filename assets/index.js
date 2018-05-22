@@ -15,15 +15,15 @@ function TypeIntro() {
     });
 }
 
-
+M.AutoInit();
 
 $(document).ready(function() {
     TypeIntro();
 });
 
 $("#subtitle").hide().delay(3000).fadeIn(5000);
-$("#scroll-downs").hide().delay(5000).fadeIn(5000);
-$(".magic").hide().delay(7000).fadeIn(5000);
+$("#scroll-downs").hide().delay(7000).fadeIn(5000);
+$(".magic").hide().delay(5000).fadeIn(5000);
 
 $(".nav1").on("click", function () {
     document.querySelector("#about").scrollIntoView({
@@ -49,7 +49,7 @@ $(".nav4").on("click", function () {
     });
 });
 
-$("#nav-headshot").on("click", function () {
+$(".brandlogo").on("click", function () {
     document.querySelector("#landing").scrollIntoView({
         behavior: "smooth"
     });
@@ -60,3 +60,12 @@ $("#scroll-downs").on("click", function () {
         behavior: "smooth"
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var options = {
+        edge: "left",
+        draggable: true
+    };
+    var instances = M.Sidenav.init(elems, options);
+  });
