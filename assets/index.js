@@ -37,12 +37,6 @@ $(".nav2").on("click", function () {
     });
 });
 
-$(".nav3").on("click", function () {
-    document.querySelector("#resume").scrollIntoView({
-        behavior: "smooth"
-    });
-});
-
 $(".nav4").on("click", function () {
     document.querySelector("#contact").scrollIntoView({
         behavior: "smooth"
