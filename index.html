@@ -141,10 +141,10 @@
         </div>
         <div class="row">
             <div id="portfolio" class="col s12 m12 l12 xl12 flow-text">
-                <h1 class="center portHead">Swipe to see more projects!</h1>
-                <h6 class="center">click the image to go to the website</h6>
+                <h1 class="center portHead">Swipe/Click to see more projects!</h1>
+                <h6 class="center">click the image to go to the website (if Node-based, you will be directed to the Github page) </h6>
                 <div class="portCarousel carousel carousel-slider s12 m12 l10 xl10 push-l1 push-xl1 center">
-                    <div class="carousel-item">
+                    <div class="carousel-item" href="javascript:console.log('#one!')">
                         <div class="car col-s12 m12 l12 xl12">
                             <a target="_blank" href="https://maldrek.github.io/Firebase-Train-Demo/">
                                 <img class="portImage left" src="assets/images/firebase-train-demo.PNG">
@@ -159,7 +159,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" href="#two!">
                         <div class="car col-s12 m12 l12 xl12">
                             <a target="_blank" href="https://maldrek.github.io/Giphy-Producer/">
                                 <img class="portImage left" src="assets/images/giphy-API-Project.PNG">
@@ -182,7 +182,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" href="#three!">
                         <div class="car col-s12 m12 l12 xl12">
                             <a target="_blank" href="https://maldrek.github.io/robot-friend/">
                                 <img class="portImage left" src="assets/images/robot.PNG">
@@ -201,7 +201,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" href="#four!">
                         <div class="car col-s12 m12 l12 xl12">
                             <a target="_blank" href="https://github.com/Maldrek/bamazon-app">
                                 <img class="portImage left" src="assets/images/bamazon.PNG">
@@ -229,7 +229,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" href="#five!">
                         <div class="car col-s12 m12 l12 xl12">
                             <a target="_blank" href="https://maldrek.github.io/Background-Gradient-Picker/">
                                 <img class="portImage left" src="assets/images/backgroundGen.PNG">
@@ -251,7 +251,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" href="#six!">
                         <div class="car col-s12 m12 l12 xl12">
                             <a target="_blank" href="https://maldrek.github.io/Bootstrap-Portfolio/">
                                 <img class="portImage left" src="assets/images/bootstrapPortfolio.PNG">
@@ -261,34 +261,40 @@
                                 In the beginning of my educational journey, we designed a portfolio using strictly HTML and CSS with the Bootstrap CDN.
                             </p>
                             <p>
-                                I am including this project to show the growth from my beginning portfolio build to my current portfolio. This project,
-                                while useful at the time and laid out some foundational building blocks, hopefully will help show you the difference not only
-                                in my code as I have become a better developer, but also the difference in design and functionality.  
+                                I am including this project to show the growth from my beginning portfolio build to my current portfolio. This project, while
+                                useful at the time and laid out some foundational building blocks, hopefully will help show
+                                you the difference not only in my code as I have become a better developer, but also the
+                                difference in design and functionality.
                             </p>
                             <p>
                                 <a target="_blank" href="https://github.com/Maldrek/Bootstrap-Portfolio">Click here to view on Github!</a>
                             </p>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" href="#seven!">
                         <div class="car col-s12 m12 l12 xl12">
-                                <a target="_blank" href="https://github.com/Maldrek/Liri-Node-App">
-                                    <img class="portImage left" src="assets/images/liri.PNG">
-                                </a>
-                                <h3 class="center">Liri Node Application</h3>
-                                <p style="margin-top: 50px;">
-                                    This node application is the minimal representation of Apple's Siri. 
-                                </p>
-                                <p>
-                                    The user is able to connect to a Twitter database and show the most recent tweets they have created. They can also
-                                    search for a song and return the album name and year release date or search for a movie and have it return the movie's
-                                    information such as Title, plot, ImDB and Rotten Tomatoes ratings, languages and main actors.
-                                </p>
-                                <p>
-                                    <a target="_blank" href="https://github.com/Maldrek/Liri-Node-App">Click here to view on Github!</a>
-                                </p>
+                            <a target="_blank" href="https://github.com/Maldrek/Liri-Node-App">
+                                <img class="portImage left" src="assets/images/liri.PNG">
+                            </a>
+                            <h3 class="center">Liri Node Application</h3>
+                            <p style="margin-top: 50px;">
+                                This node application is the minimal representation of Apple's Siri.
+                            </p>
+                            <p>
+                                The user is able to connect to a Twitter database and show the most recent tweets they have created. They can also search
+                                for a song and return the album name and year release date or search for a movie and have
+                                it return the movie's information such as Title, plot, ImDB and Rotten Tomatoes ratings,
+                                languages and main actors.
+                            </p>
+                            <p>
+                                <a target="_blank" href="https://github.com/Maldrek/Liri-Node-App">Click here to view on Github!</a>
+                            </p>
                         </div>
                     </div>
+                </div>
+                <div class="carousel-fixed-item center">
+                    <a id="carouselPrevious" class="btn waves-effect white grey-text darken-text-2">Previous</a>
+                    <a id="carouselNext" class="btn waves-effect white grey-text darken-text-2">Next</a>
                 </div>
             </div>
         </div>
@@ -296,7 +302,7 @@
             <div id="resume" class="col s12 m12 l12 xl12 flow-text">
                 <div class="resumeDiv col s12 m10 l6 xl6 push-m1 push-l3 push-xl3">
                     <div class="resumeHeader">
-                        <img id="resumeImage" src="assets/images/resumeGuideline.PNG">
+
                     </div>
                 </div>
             </div>
@@ -379,7 +385,7 @@
 
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@5.9.0/dist/typeit.min.js"></script>
-        <script type="text/javascript" src=" https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
         <script type="text/javascript" src="assets/index.js"></script>
 </body>
 

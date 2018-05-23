@@ -17,7 +17,7 @@ function TypeIntro() {
 
 M.AutoInit();
 
-$(document).ready(function() {
+$(document).ready(function () {
     TypeIntro();
 });
 
@@ -61,11 +61,31 @@ $("#scroll-downs").on("click", function () {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.sidenav');
     var options = {
         edge: "left",
         draggable: true
     };
     var instances = M.Sidenav.init(elems, options);
+});
+
+$( document ).ready(function() {
+    $('.carousel').carousel();
   });
+
+$('#carouselNext').click(function(e){
+    e.preventDefault();
+    e.stopPropagation();
+    $('.carousel').carousel('next');
+ });
+
+ $('#carouselPrevious').click(function(e){
+    e.preventDefault();
+    e.stopPropagation();
+    $('.carousel').carousel('prev');
+ });
+
+ $(".carousel-item").click(function() {
+     return;
+ })
