@@ -15,8 +15,6 @@ function TypeIntro() {
     });
 }
 
-M.AutoInit();
-
 $(document).ready(function () {
     TypeIntro();
 });
@@ -29,6 +27,7 @@ $(".nav1").on("click", function () {
     document.querySelector("#about").scrollIntoView({
         behavior: "smooth"
     });
+    $(".button-collapse").sidenav('hide');
 });
 
 $(".nav2").on("click", function () {
@@ -43,6 +42,11 @@ $(".nav4").on("click", function () {
     });
 });
 
+$(".buttonCollapse").on("click", function() {
+    $("#sidenav-overlay").trigger("click");
+    return false;
+})
+
 $(".brandlogo").on("click", function () {
     document.querySelector("#landing").scrollIntoView({
         behavior: "smooth"
@@ -55,14 +59,9 @@ $("#scroll-downs").on("click", function () {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.sidenav');
-    var options = {
-        edge: "left",
-        draggable: true
-    };
-    var instances = M.Sidenav.init(elems, options);
-});
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
 
 $( document ).ready(function() {
     $('.carousel').carousel();
@@ -79,7 +78,3 @@ $('#carouselNext').click(function(e){
     e.stopPropagation();
     $('.carousel').carousel('prev');
  });
-
- $(".carousel-item").click(function() {
-     return;
- })

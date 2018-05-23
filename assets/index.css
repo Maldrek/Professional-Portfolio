@@ -237,3 +237,7 @@ footer {
     margin-bottom: -3rem;
     position: sticky;
 }
+
+#sidenav-overlay {
+    z-index: 996;
+}
